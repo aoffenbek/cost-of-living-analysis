@@ -26,8 +26,18 @@ This project scrapes and analyzes cost of living data from Numbeo for Hungary an
    ```
 5. Explore data using Jupyter Notebook
 
-## Next Steps
+# 📊 Power BI Dashboard
 
-- Create a Streamlit or Power BI dashboard
-- Normalize by local income
-- Add time-based tracking
+This folder contains:
+- `cost_of_living_all_countries.csv`: Cleaned cost of living data for Hungary and neighboring countries
+- `CostOfLivingDashboard.pbix`: Power BI dashboard file
+
+## Features:
+- Compare rent, groceries, restaurant prices
+- Filter by country or item
+- Easy-to-read charts and matrix tables
+
+## How to Use
+1. Open `CostOfLivingDashboard.pbix` in Power BI Desktop
+2. Refresh data from the CSV if needed
+3. Explore cost comparisons across Central Europe
